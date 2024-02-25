@@ -37,7 +37,7 @@ html,body {
 .editor {
     border:1.5px solid black;
     position: absolute;
-    /* background: blue; */
+    background: blue;
     top:8%;
     height:90%;
     width:32%;
@@ -47,7 +47,7 @@ html,body {
 }
 #cssEditor {
     left:34%;
-    /* cursor: col-resize; */
+    cursor: col-resize; */
 }
 #jsEditor {
     right:2%;
