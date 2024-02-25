@@ -28,7 +28,7 @@ html,body {
 #editors {
     border:2px solid black;
     position: relative;
-    background-color:#21222C;
+    background-color:Black;
     height:50%;
     width:100%;
     /* what is inline */
@@ -37,7 +37,7 @@ html,body {
 .editor {
     border:1.5px solid black;
     position: absolute;
-    background: blue;
+    background: gray;
     top:8%;
     height:90%;
     width:32%;
