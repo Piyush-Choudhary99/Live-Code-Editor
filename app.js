@@ -10,10 +10,7 @@ function update() {
     code.close();
 }
 function loadHTMLEditor() {
-    defaultHTMLValue = "<!DOCTYPE html>
-<body>
-    <h1>HTML Code Here</h1>
-</body>"
+    defaultHTMLValue = "<!DOCTYPE html>\n\n<html>\n\n    <!-- Your HTML code goes right here -->\n\n</html>"
     //tells ace editor to use editor element , window.editor makes it global in the javascript file
     window.htmlEditor = ace.edit("htmlEditor");
     //mode mode
