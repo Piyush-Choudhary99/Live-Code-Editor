@@ -154,7 +154,7 @@ function downloadCode() {
      //1.Create a blob
      const userCode = getUserCode();
      const blob = new Blob([userCode], {type: "text/html"});
-     downloadFile(blob,"index.html");
+     downloadFile(blob,"index.html, style.css, script.js");
 }
 //2.function that accepts blob and file name
 function downloadFile(blob,fileName) {
