@@ -23,28 +23,9 @@ js_code.onkeyup = () => run();
 // TODO: check if data stored in Local Storage.
 document.addEventListener("DOMContentLoaded", function () {
 	html_code.value = localStorage.html_code || "
-		<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+		<a href="https://piyushcdy.netlify.app">HTML_Code_Here</a>
 		";
-	css_code.value = localStorage.css_code || "
-			*{margin: 0;
-			  padding: 0;
-	                box-sizing: border-box;
-				}
-			  html, body{
-	height: 100%;
-	width: 100%;
-			  }
-			";
+	css_code.value = localStorage.css_code || "*/ CSS_Code_Here /*";
 	js_code.value = localStorage.js_code || "JS Code Here";
 });
 
