@@ -23,7 +23,7 @@ js_code.onkeyup = () => run();
 // TODO: check if data stored in Local Storage.
 document.addEventListener("DOMContentLoaded", function () {
 	html_code.value = localStorage.html_code || "
-		<a>HTML_Code_Here</a>
+		<p>HTML_Code_Here</p>
 		";
 	css_code.value = localStorage.css_code || "*/ CSS_Code_Here /*";
 	js_code.value = localStorage.js_code || "JS Code Here";
