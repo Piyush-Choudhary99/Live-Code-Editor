@@ -10,7 +10,19 @@ function update() {
     code.close();
 }
 function loadHTMLEditor() {
-    defaultHTMLValue = "<!DOCTYPE html>\n\n<html>\n\n    <!-- Your HTML code goes right here -->\n\n</html>"
+    defaultHTMLValue = "
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://piyush-choudhary.netlify.app">HTML Code Here</a>
+</body>
+</html>
+        "
     //tells ace editor to use editor element , window.editor makes it global in the javascript file
     window.htmlEditor = ace.edit("htmlEditor");
     //mode mode
